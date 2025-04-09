@@ -10,6 +10,9 @@ module.exports = {
           '100%': { transform: 'scale(1) translate(0, 0)' },
         },
       },
+      fontFamily: {
+        codystar: ['"Codystar"', 'cursive'],
+      },
       animation: {
         'zoom-pan': 'zoom-pan 20s ease-in-out infinite',
       },
