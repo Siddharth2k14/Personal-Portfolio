@@ -30,7 +30,7 @@ export function Home() {
 
         {/* Text Area */}
         <div className="flex-1 space-y-6 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4">
+          <h1 className="font-doto text-4xl md:text-5xl font-bold text-gray-100 mb-4">
             Hi, I'm Siddharth Singh
           </h1>
           <AnimatedText texts={ANIMATED_TEXTS} />
