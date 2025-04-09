@@ -3,18 +3,18 @@ import { ProjectCard } from './ProjectCard';
 
 const PROJECTS = [
   {
-    title: 'Project 1',
-    description: 'Personal Task Manager',
+    title: 'Personal Task Manager',
+    description: 'Personal task manager is a web app that allows the user to manage their tasks in a single place.',
     link: 'https://personal-task-manager-one.vercel.app/',
   },
   {
-    title: 'Project 2',
-    description: 'Paste App',
+    title: 'Paste App',
+    description: 'Paste App is a web app that allows the user to store or save thier text or code snippets in a single place.',
     link: 'https://paste-app-chi.vercel.app/',
   },
   {
-    title: 'Project 3',
-    description: 'Diabetes Prediction Model',
+    title: 'Diabetes Prediction Model',
+    description: 'In this project, I have built a diabetes prediction model using machine learning having predictions for some of algorithms. For example, Logistic Regression, Decision Tree, Random Forest, and KNN. The model is trained on the PIMA Indian Diabetes Database. The model predicts whether a person is diabetic or not based on the input features.',
     link: 'https://github.com/Siddharth2k14/Projects-on-Machine-Learning-in-Python',
   },
 ];
