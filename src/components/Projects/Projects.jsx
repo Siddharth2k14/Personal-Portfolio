@@ -14,7 +14,7 @@ const PROJECTS = [
   },
   {
     title: 'Diabetes Prediction Model',
-    description: 'In this project, I have built a diabetes prediction model using machine learning having predictions for some of algorithms. For example, Logistic Regression, Decision Tree, Random Forest, and KNN. The model is trained on the PIMA Indian Diabetes Database. The model predicts whether a person is diabetic or not based on the input features.',
+    description: 'In this project, I have built a diabetes prediction model using machine learning having predictions for some of algorithms. The model is tuned 60% accurately.',
     link: 'https://github.com/Siddharth2k14/Projects-on-Machine-Learning-in-Python',
   },
 ];
