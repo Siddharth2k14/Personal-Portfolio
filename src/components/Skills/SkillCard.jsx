@@ -2,7 +2,7 @@ import React from 'react';
 
 export function SkillCard({ title, description, link }) {
   const content = (
-    <h3 className="text-2xl mb-2.5 font-bold text-[#39FF14]">{title}</h3>
+    <h3 className="font-codystar text-2xl mb-2.5 font-bold text-[#39FF14]">{title}</h3>
   );
 
   return (
