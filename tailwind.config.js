@@ -11,7 +11,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        codystar: ['"Codystar"', 'cursive'],
+        codystar: ['"Codystar"'],
       },
       animation: {
         'zoom-pan': 'zoom-pan 20s ease-in-out infinite',
