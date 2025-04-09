@@ -40,7 +40,7 @@ export function AnimatedText({
 
   return (
     <div className="font-mono">
-      <span className="text-3xl text-[#39FF14]">{currentText}</span>
+      <span className="font-fredericka text-3xl text-[#39FF14]">{currentText}</span>
       <span className="animate-blink text-3xl text-[#39FF14]">|</span>
     </div>
   );

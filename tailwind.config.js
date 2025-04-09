@@ -14,6 +14,7 @@ module.exports = {
         codystar: ['"Codystar"'],
         dosis: ['"Dosis"', 'sans-serif'],
         pacifico: ['"Pacifico"', 'cursive'],
+        fredericka: ['"Fredericka the Great"', 'cursive'],
       },
       animation: {
         'zoom-pan': 'zoom-pan 20s ease-in-out infinite',
