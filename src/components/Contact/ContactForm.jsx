@@ -25,7 +25,7 @@ export function ContactForm() {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         className="relative z-10 text-center text-gray-100"
       >
-        <h2 className="text-3xl mb-6">Contact Me</h2>
+        <h2 className="font-bold text-3xl mb-6">Contact Me</h2>
 
         <form
           onSubmit={handleSubmit}
