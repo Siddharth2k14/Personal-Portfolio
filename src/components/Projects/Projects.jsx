@@ -23,9 +23,11 @@ export function Projects() {
   return (
     <section id="projects" className="p-10 m-2.5 bg-[url('/Background.png')] bg-fixed animate-gradient text-center border-2 border-gray-100">
       <h2 className="text-3xl mb-7 text-gray-100">Projects</h2>
-      {PROJECTS.map((project) => (
-        <ProjectCard key={project.title} {...project} />
-      ))}
+      <div className='flex justify-around flex-wrap gap-4'>
+        {PROJECTS.map((project) => (
+          <ProjectCard key={project.title} {...project} />
+        ))}
+      </div>
       <Button href="#home">Back to Home</Button>
     </section>
   );
