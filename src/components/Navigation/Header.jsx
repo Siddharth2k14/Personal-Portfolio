@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="header">
       <section id="home" />
-      <div className="h-screen flex justify-around items-center gap-4 m-2.5 border-2 border-gray-200 rounded-lg bg-[url('/Background.png')] bg-fixed animate-gradient">
+      <div className="h-screen flex flex-col justify-around items-center gap-4 m-2.5 border-2 border-gray-200 rounded-lg bg-[url('/Background.png')] bg-fixed animate-gradient">
         {[
           { href: '#home', title: 'Home', description: 'Redirect to Home Section' },
           { href: '#about', title: 'About', description: 'Redirect to About Section' },
