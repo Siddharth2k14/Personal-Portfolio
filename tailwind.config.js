@@ -12,7 +12,8 @@ module.exports = {
       },
       fontFamily: {
         codystar: ['"Codystar"'],
-        doto: ['"Doto"'],
+        dosis: ['"Dosis"', 'sans-serif'],
+        pacifico: ['"Pacifico"', 'cursive'],
       },
       animation: {
         'zoom-pan': 'zoom-pan 20s ease-in-out infinite',

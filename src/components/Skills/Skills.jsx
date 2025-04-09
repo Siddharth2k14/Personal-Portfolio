@@ -88,7 +88,7 @@ export function Skills() {
   return (
     <div className="m-2.5 bg-[url('/Background.png')] bg-fixed animate-gradient">
       <section id="skills" className="p-10 text-center border-2 border-gray-100">
-        <h2 className="font-bold text-3xl mb-7 text-gray-100">Skills</h2>
+        <h2 className="font-pacifico text-3xl mb-7 text-gray-100">Skills</h2>
         <div className="flex justify-around flex-wrap gap-4">
           {SKILLS.map((skill) => (
             <SkillCard key={skill.title} {...skill} />
