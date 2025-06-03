@@ -9,6 +9,7 @@ export function Header() {
           { href: '#home', title: 'Home', description: 'Redirect to Home Section' },
           { href: '#about', title: 'About', description: 'Redirect to About Section' },
           { href: '#skills', title: 'Skills', description: 'Redirect to Skills Section' },
+          { href: '#certificates', title: 'Certificates', description: 'Redirect to Certificates Section' },
           { href: '#projects', title: 'Projects', description: 'Redirect to Project Section' },
           { href: '#contacts', title: 'Contacts', description: 'Redirect to Contacts Section' }
         ].map((item) => (
