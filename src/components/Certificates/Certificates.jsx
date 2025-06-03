@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Certificate from "./Certificate";
 import { div, image } from "framer-motion/client";
+import { Button } from "../ui/Button";
 
 // Certificate data (update image and file paths as needed)
 const CERTIFICATES = [
@@ -47,6 +48,7 @@ export default function Certificates() {
 					/>
 				))}
 			</div>
+			<Button href="#home">Back to Home</Button>
 		</section>
 	);
 }
