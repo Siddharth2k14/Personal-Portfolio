@@ -6,7 +6,7 @@ import TwitterIcon from '@mui/icons-material/Twitter'; // <-- Correct import
 
 const ANIMATED_TEXTS = [
   "Welcome to my Portfolio",
-  "I'm a Full Stack Developer",
+  "I'm a Frontend Web Developer",
   "I Build Modern Web Apps",
   "Let's Create Something Amazing"
 ];
