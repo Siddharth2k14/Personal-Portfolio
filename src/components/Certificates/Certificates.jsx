@@ -16,11 +16,6 @@ const CERTIFICATES = [
 		file: "/certificates/Internship completion certficate Cognifyz.pdf",
 	},
 	{
-		title: "Prodigy Offer Letter",
-		image: "/certificates/Prodigy_Offer_Letter_page-0001.jpg",
-		file: "/certificates/Prodigy Offer Letter.pdf",
-	},
-	{
 		title: "TatvaAI Offer Letter",
 		image: "/certificates/tatvaAI-Offer_Letter_Siddharth_page-0001.jpg",
 		file: "/certificates/tatvaAI-Offer_Letter_Siddharth.pdf",
