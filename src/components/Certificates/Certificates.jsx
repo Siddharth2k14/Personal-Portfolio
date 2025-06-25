@@ -20,7 +20,11 @@ const CERTIFICATES = [
 		image: "/certificates/tatvaAI-Offer_Letter_Siddharth_page-0001.jpg",
 		file: "/certificates/tatvaAI-Offer_Letter_Siddharth.pdf",
 	},
-
+	{
+		title: "Deloitte Australia - Data Analytics Job Simulation",
+		image: "/certificates/Screenshot 2025-06-25 185440.png",
+		file: "/certificates/Data_Analytics_completion_certificate.pdf",
+	},
 ];
 
 export default function Certificates() {
