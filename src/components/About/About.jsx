@@ -3,7 +3,7 @@ import { Button } from '../ui/Button';
 export function About() {
   const handleDownoload = () => {
     const link = document.createElement('a');
-    link.href = '/resume/Resume (3).pdf';
+    link.href = '/resume/Resume.pdf';
     link.download = 'Siddharth_Singh_Resume.pdf';
     document.body.appendChild(link);
     link.click();
