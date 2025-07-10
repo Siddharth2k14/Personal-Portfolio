@@ -1,9 +1,9 @@
 import { Button } from '../ui/Button';
 
 export function About() {
-  const handleDownoload = () => {
+  const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/resume/Resume.pdf';
+    link.href = '/resume/Siddharth_Singh_Resume.pdf';
     link.download = 'Siddharth_Singh_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -23,7 +23,7 @@ export function About() {
           Artificial Intelligence by IIT Kanpur <b>Currently Pursuing</b>
         </p>
         <p className="text-gray-100 my-4">Here is my Resume</p>
-        <Button className="mt-2" onClick={handleDownoload}>Download Resume</Button>
+        <Button className="mt-2" onClick={handleDownload}>Download Resume</Button>
         <br/>
         <Button href="#home">Back to Home</Button>
       </section>
