@@ -1,6 +1,6 @@
 import { NavCard } from './NavCard';
 
-export function Header() {
+function Header() {
   return (
     <header className="header">
       <section id="home" />
@@ -25,3 +25,5 @@ export function Header() {
     </header>
   );
 }
+
+export default Header;

@@ -1,7 +1,7 @@
 import { Button } from '../ui/Button';
 import { motion } from 'framer-motion';
 
-export function ContactForm() {
+function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Add form submission logic here
@@ -87,3 +87,5 @@ export function ContactForm() {
     </section>
   );
 }
+
+export default ContactForm;

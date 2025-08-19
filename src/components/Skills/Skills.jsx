@@ -84,7 +84,7 @@ const SKILLS = [
   }
 ];
 
-export function Skills() {
+function Skills() {
   return (
     <div className="m-2.5 bg-[url('/Background.png')] bg-fixed animate-gradient">
       <section id="skills" className="p-10 text-center border-2 border-gray-100">
@@ -99,3 +99,5 @@ export function Skills() {
     </div>
   );
 }
+
+export default Skills;

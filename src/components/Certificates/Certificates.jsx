@@ -27,7 +27,7 @@ const CERTIFICATES = [
 	},
 ];
 
-export default function Certificates() {
+function Certificates() {
 	const [hoveredIdx, setHoveredIdx] = useState(null);
 
 	return (
@@ -51,3 +51,5 @@ export default function Certificates() {
 		</section>
 	);
 }
+
+export default Certificates;

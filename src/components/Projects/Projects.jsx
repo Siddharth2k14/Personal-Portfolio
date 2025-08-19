@@ -19,7 +19,7 @@ const PROJECTS = [
   },
 ];
 
-export function Projects() {
+function Projects() {
   return (
     <section id="projects" className="p-10 m-2.5 bg-[url('/Background.png')] bg-fixed animate-gradient text-center border-2 border-gray-100">
       <h2 className="font-pacifico text-3xl mb-7 text-gray-100">Projects</h2>
@@ -32,3 +32,5 @@ export function Projects() {
     </section>
   );
 }
+
+export default Projects;

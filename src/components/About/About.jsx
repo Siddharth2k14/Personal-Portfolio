@@ -1,6 +1,6 @@
 import { Button } from '../ui/Button';
 
-export function About() {
+function About() {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = '/resume/Siddharth_Singh_Resume.pdf';
@@ -30,3 +30,5 @@ export function About() {
     </div>
   );
 }
+
+export default About;

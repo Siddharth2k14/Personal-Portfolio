@@ -11,7 +11,7 @@ const ANIMATED_TEXTS = [
   "Let's Create Something Amazing"
 ];
 
-export function Home() {
+function Home() {
   return (
     <section
       id="home"
@@ -56,3 +56,5 @@ export function Home() {
     </section>
   );
 }
+
+export default Home;
