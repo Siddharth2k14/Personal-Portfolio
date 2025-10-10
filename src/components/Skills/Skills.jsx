@@ -81,6 +81,10 @@ const SKILLS = [
   {
     title: 'Material UI',
     description: "Styled components with Material Design framework.",
+  },
+  {
+    title: 'Render',
+    description: 'Used for deploying the backend services',
   }
 ];
 

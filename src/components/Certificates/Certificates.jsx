@@ -21,9 +21,27 @@ const CERTIFICATES = [
 		file: "/certificates/tatvaAI-Offer_Letter_Siddharth.pdf",
 	},
 	{
+		title: "TatvaAI Internship Completion Certificate",
+		image: '/certificates/TatvaAI Internship Completion Certificate_Siddarth Singh (1)_page-0001.jpg',
+		file: '/certificates/TatvaAI Internship Completion Certificate_Siddarth Singh (1).pdf',
+	},
+	{
 		title: "Deloitte Australia - Data Analytics Job Simulation",
 		image: "/certificates/Screenshot 2025-06-25 185440.png",
 		file: "/certificates/Data_Analytics_completion_certificate.pdf",
+	},
+	{
+
+	},
+	{
+		title: "Cyber Security - Ethical Hacking | Summer Training Program 2025",
+		image: "/certificates/Cyber_Security.jpg",
+		file: "/certificates/Cyber_Security.pdf",
+	},
+	{
+		title: "Artificial Intelligence | Summer Training Program 2025",
+		image: "/certificates/Artificial_Intelligence.jpg",
+		file: "/certificates/Artificial_Intelligence.pdf",
 	},
 ];
 
