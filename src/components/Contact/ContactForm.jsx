@@ -1,7 +1,7 @@
 import { Button } from '../ui/Button';
 import { motion } from 'framer-motion';
 
-export function ContactForm() {
+function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: Add form submission logic here
@@ -14,7 +14,7 @@ export function ContactForm() {
     >
       {/* Background Image with Dark Overlay */}
       <div
-        className="absolute inset-0 z-0 bg-[url('/Background.png')] bg-cover animate-gradient bg-fixed"
+        className="absolute inset-0 z-0 bg-[url('/Background.webp')] bg-cover animate-gradient bg-fixed"
       >
       </div>
 
@@ -87,3 +87,5 @@ export function ContactForm() {
     </section>
   );
 }
+
+export default ContactForm;

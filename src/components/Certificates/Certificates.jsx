@@ -41,11 +41,11 @@ const CERTIFICATES = [
 	},
 ];
 
-export default function Certificates() {
+function Certificates() {
 	const [hoveredIdx, setHoveredIdx] = useState(null);
 
 	return (
-		<section id="certificates" className="p-10 m-2.5 bg-[url('/Background.png')] bg-fixed animate-gradient text-center border-2 border-gray-100">
+		<section id="certificates" className="p-10 m-2.5 bg-[url('/Background.webp')] bg-fixed animate-gradient text-center border-2 border-gray-100">
 			<h2 className="font-pacifico text-3xl mb-7 text-gray-100">Certificates</h2>
 			<div className='flex justify-around flex-wrap gap-4'>
 				{CERTIFICATES.map((cert, index) => (
@@ -65,3 +65,5 @@ export default function Certificates() {
 		</section>
 	);
 }
+
+export default Certificates;

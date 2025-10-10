@@ -11,12 +11,12 @@ const ANIMATED_TEXTS = [
   "Let's Create Something Amazing"
 ];
 
-export function Home() {
+function Home() {
   return (
     <section
       id="home"
       className={`min-h-screen flex flex-col justify-around items-center p-8 
-                  bg-[url('/Background.png')]
+                  bg-[url('/Background.webp')]
                   bg-fixed bg-cover animate-gradient 
                   border-gray-200 rounded-3xl`}
     >
@@ -24,7 +24,7 @@ export function Home() {
         {/* Profile Image */}
         <div className="flex-1">
           <ProfileImage
-            src="/Siddharth.jpg"
+            src="/Siddharth.webp"
             alt="Profile Image"
             className="w-64 h-64 rounded-full border-4 border-[#39FF14] shadow-lg transition-transform duration-300 transform hover:scale-105"
           />
@@ -56,3 +56,5 @@ export function Home() {
     </section>
   );
 }
+
+export default Home;
