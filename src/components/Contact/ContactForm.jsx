@@ -14,7 +14,7 @@ function ContactForm() {
     >
       {/* Background Image with Dark Overlay */}
       <div
-        className="absolute inset-0 z-0 bg-[url('/Background.png')] bg-cover animate-gradient bg-fixed"
+        className="absolute inset-0 z-0 bg-[url('/Background.webp')] bg-cover animate-gradient bg-fixed"
       >
       </div>
 
