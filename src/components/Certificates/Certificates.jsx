@@ -1,7 +1,6 @@
-import React, { useState } from "react";
 import Certificate from "./Certificate";
-import { div, image } from "framer-motion/client";
 import { Button } from "../ui/Button";
+import { useState } from "react";
 
 // Certificate data (update image and file paths as needed)
 const CERTIFICATES = [
