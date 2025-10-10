@@ -31,9 +31,6 @@ const CERTIFICATES = [
 		file: "/certificates/Data_Analytics_completion_certificate.pdf",
 	},
 	{
-
-	},
-	{
 		title: "Cyber Security - Ethical Hacking | Summer Training Program 2025",
 		image: "/certificates/Cyber_Security.jpg",
 		file: "/certificates/Cyber_Security.pdf",
