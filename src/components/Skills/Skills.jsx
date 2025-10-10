@@ -85,7 +85,11 @@ const SKILLS = [
   {
     title: 'Render',
     description: 'Used for deploying the backend services',
-  }
+  },
+  {
+    title: 'SQL',
+    description: 'Used for writing queries',
+  },
 ];
 
 export function Skills() {
