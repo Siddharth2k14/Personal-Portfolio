@@ -18,6 +18,7 @@ module.exports = {
       },
       animation: {
         'zoom-pan': 'zoom-pan 20s ease-in-out infinite',
+        'spin-slow': 'spin 12s linear infinite',
       },
     },
   },
