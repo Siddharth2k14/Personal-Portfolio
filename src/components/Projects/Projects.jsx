@@ -3,19 +3,28 @@ import { ProjectCard } from './ProjectCard';
 
 const PROJECTS = [
   {
+    title: 'Online Exam Portal (ExamMaster)',
+    description: 'ExamMaster is an online exam portal that allows the teacher to create and manages exams, and the student can take the exam and get the score instantly.',
+    link: 'https://online-exam-portal-client.vercel.app/',
+    techStack: 'ReactJS, NodeJS, ExpressJS, MongoDB, Material-UI',
+  },
+  {
     title: 'Personal Task Manager',
     description: 'Personal task manager is a web app that allows the user to manage their tasks in a single place.',
     link: 'https://personal-task-manager-one.vercel.app/',
+    techStack: 'ReactJS, NodeJS, ExpressJS, MongoDB, Tailwind CSS',
   },
   {
     title: 'Paste App',
     description: 'Paste App is a web app that allows the user to store or save thier text or code snippets in a single place.',
     link: 'https://paste-app-chi.vercel.app/',
+    techStack: 'ReactJS, NodeJS, ExpressJS, MongoDB, Tailwind CSS',
   },
   {
     title: 'Diabetes Prediction Model',
     description: 'In this project, I have built a diabetes prediction model using machine learning having predictions for some of algorithms. The model is tuned 60% accurately.',
     link: 'https://github.com/Siddharth2k14/Projects-on-Machine-Learning-in-Python',
+    techStack: 'Python, Scikit-learn, Pandas, NumPy',
   },
 ];
 

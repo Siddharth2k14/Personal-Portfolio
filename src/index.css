@@ -10,12 +10,12 @@
 
 html, body {
   overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Edge */
+  display: none; 
 }
 
 .animate-gradient {

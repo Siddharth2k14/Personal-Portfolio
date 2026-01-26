@@ -9,7 +9,7 @@ import Certificates from './components/Certificates/Certificates';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#149414] via-[#649568] to-[#2b5329] animate-gradient">
+    <div className="min-h-screen bg-slate-900 animate-gradient">
         <Header />
         <Home />
         <About />
