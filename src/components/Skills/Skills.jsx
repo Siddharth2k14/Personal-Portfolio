@@ -51,7 +51,7 @@ const SKILL_GROUPS = {
 
 function Skills() {
   return (
-    <div className="m-2.5 bg-[url('/Background.webp')] bg-fixed animate-gradient">
+    <div className="m-2.5 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-fixed animate-gradient">
       <section id="skills" className="p-10 text-center border-2 border-gray-100">
         <h2 className="font-pacifico text-3xl mb-7 text-gray-100">Skills</h2>
 

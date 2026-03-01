@@ -14,7 +14,7 @@ function Home() {
     <section
       id="home"
       className="min-h-screen flex justify-center items-center p-8
-                 bg-[url('/Background.webp')] bg-cover bg-fixed animate-gradient
+                 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-cover bg-fixed animate-gradient
                  rounded-3xl pt-[110px]"
     >
       <div className="max-w-5xl mx-auto flex flex-col items-center gap-10 text-center">
@@ -25,7 +25,7 @@ function Home() {
         </h1>
 
         {/* Profile Image with Curved Circular Text (center) */}
-        <ProfileImage src="/Siddharth.webp" alt="Profile Image" />
+        <ProfileImage src="https://res.cloudinary.com/dhgojtmbf/image/upload/v1772387711/Siddharth_qbjsdz.webp" alt="Profile Image" />
         {/* Animated Typing Text */}
         <AnimatedText texts={ANIMATED_TEXTS} />
         {/* Social Media */}

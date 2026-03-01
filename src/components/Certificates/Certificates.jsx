@@ -47,7 +47,7 @@ function Certificates() {
 	return (
 		<section
 			id="certificates"
-			className="min-h-screen p-10 m-2.5 bg-[url('/Background.webp')] bg-fixed animate-gradient text-center border-2 border-gray-100"
+			className="min-h-screen p-10 m-2.5 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-fixed animate-gradient text-center border-2 border-gray-100"
 		>
 			<h2 className="font-pacifico text-3xl mb-7 text-gray-100">Certificates</h2>
 			<div className='flex justify-around flex-wrap gap-4'>
