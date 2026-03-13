@@ -2,12 +2,11 @@ import { Button } from '../ui/Button';
 
 function About() {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/resume/Siddharth_Singh_Resume.pdf';
-    link.download = 'Siddharth_Singh_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    return (
+      <div>
+        
+      </div>
+    )
   };
 
   return (
