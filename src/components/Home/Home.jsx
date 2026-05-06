@@ -13,14 +13,12 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex justify-center items-center p-8
-                 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-cover bg-fixed animate-gradient
-                 rounded-3xl pt-[110px]"
+      className="min-h-screen flex justify-center items-center p-8 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-cover bg-fixed animate-gradient rounded-3xl pt-[110px]"
     >
-      <div className="max-w-5xl mx-auto flex flex-col items-center gap-10 text-center">
+      <div className="max-w-5xl mx-auto flex flex-col items-center gap-10 text-center border-2 border-gray-100 rounded-3xl bg-slate-950/80 shadow-xl shadow-black/30 p-10">
 
         {/* Heading */}
-        <h1 className="font-doto text-4xl md:text-5xl font-bold text-gray-100">
+        <h1 className="font-doto text-4xl md:text-5xl font-bold text-slate-100">
           Hi, I'm Siddharth Singh
         </h1>
 
@@ -40,7 +38,7 @@ function Home() {
             rel="noopener noreferrer"
             className="hover:scale-110 transition"
           >
-            <LinkedInIcon className="text-blue-600" style={{ fontSize: 45 }} />
+            <LinkedInIcon className="text-slate-300" style={{ fontSize: 45 }} />
           </a>
 
           <a 
@@ -49,7 +47,7 @@ function Home() {
             rel="noopener noreferrer"
             className="hover:scale-110 transition"
           >
-            <GitHubIcon className="text-gray-200" style={{ fontSize: 45 }} />
+            <GitHubIcon className="text-slate-300" style={{ fontSize: 45 }} />
           </a>
 
           <a 
@@ -58,12 +56,12 @@ function Home() {
             rel="noopener noreferrer"
             className="hover:scale-110 transition"
           >
-            <TwitterIcon className="text-blue-400" style={{ fontSize: 45 }} />
+            <TwitterIcon className="text-slate-300" style={{ fontSize: 45 }} />
           </a>
         </div>
 
         {/* Footer line */}
-        <p className="text-gray-300 text-lg">
+        <p className="text-slate-300 text-lg">
           Passionate about creating beautiful and functional web experiences
         </p>
       </div>

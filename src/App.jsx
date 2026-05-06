@@ -6,6 +6,7 @@ import  Projects  from './components/Projects/Projects';
 import  ContactForm  from './components/Contact/ContactForm';
 // import Certificate from './components/Certificates/Certificate';
 import Certificates from './components/Certificates/Certificates';
+import ExperienceCard from './components/Experience/ExperienceCrad';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Home />
         <About />
+        <ExperienceCard />
         <Skills />
         <Certificates />
         <Projects />

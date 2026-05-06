@@ -30,15 +30,24 @@ const PROJECTS = [
 
 function Projects() {
   return (
-    <section id="projects" className="p-10 m-2.5 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-fixed animate-gradient text-center border-2 border-gray-100">
-      <h2 className="font-pacifico text-3xl mb-7 text-gray-100">Projects</h2>
-      <div className='flex justify-around flex-wrap gap-4'>
+    <div className="m-2.5 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-fixed animate-gradient">
+      <section id="projects" className="p-10 border-2 border-gray-100 rounded-3xl bg-slate-950/70 shadow-xl shadow-black/20 text-center">
+        <div className="text-center mb-8">
+          <h2 className="font-pacifico text-3xl mb-2 text-gray-100">Projects</h2>
+          <p className="max-w-2xl mx-auto text-gray-300">
+            Projects are arranged in a balanced grid using the same muted slate styling as the Skills section.
+          </p>
+        </div>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
         {PROJECTS.map((project) => (
           <ProjectCard key={project.title} {...project} />
         ))}
       </div>
-      <Button href="#home">Back to Home</Button>
+      <div className="mt-10 text-center">
+        <Button href="#home">Back to Home</Button>
+      </div>
     </section>
+    </div>
   );
 }
 

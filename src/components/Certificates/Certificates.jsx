@@ -45,12 +45,18 @@ function Certificates() {
 	const [hoveredIdx, setHoveredIdx] = useState(null);
 
 	return (
-		<section
-			id="certificates"
-			className="min-h-screen p-10 m-2.5 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-fixed animate-gradient text-center border-2 border-gray-100"
-		>
-			<h2 className="font-pacifico text-3xl mb-7 text-gray-100">Certificates</h2>
-			<div className='flex justify-around flex-wrap gap-4'>
+		<div className="m-2.5 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-fixed animate-gradient">
+			<section
+				id="certificates"
+				className="min-h-screen p-10 border-2 border-gray-100 rounded-3xl bg-slate-950/70 shadow-xl shadow-black/20 text-center"
+			>
+			<div className="text-center mb-8">
+				<h2 className="font-pacifico text-3xl mb-2 text-gray-100">Certificates</h2>
+				<p className="max-w-2xl mx-auto text-gray-300">
+					Certificates are presented in a neat grid with the same muted slate theme used throughout the site.
+				</p>
+			</div>
+			<div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6'>
 				{CERTIFICATES.map((cert, index) => (
 					<Certificate
 						key={index}
@@ -64,8 +70,11 @@ function Certificates() {
 					/>
 				))}
 			</div>
-			<Button href="#home">Back to Home</Button>
+			<div className="mt-10 text-center">
+				<Button href="#home">Back to Home</Button>
+			</div>
 		</section>
+	</div>
 	);
 }
 

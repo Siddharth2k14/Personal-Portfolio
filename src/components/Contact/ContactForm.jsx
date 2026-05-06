@@ -10,11 +10,11 @@ function ContactForm() {
   return (
     <section
       id="contacts"
-      className="relative p-10 m-2.5 border-2 border-gray-100 rounded-lg overflow-hidden"
+      className="relative p-10 m-2.5 border-2 border-gray-100 rounded-3xl overflow-hidden bg-slate-950/70 shadow-xl shadow-black/20"
     >
       {/* Background Image with Dark Overlay */}
       <div
-        className="absolute inset-0 z-0 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-cover animate-gradient bg-fixed"
+        className="absolute inset-0 z-0 bg-[url('https://res.cloudinary.com/dhgojtmbf/image/upload/v1772386850/Background_rzyxms.avif')] bg-cover animate-gradient bg-fixed opacity-40"
       >
       </div>
 
@@ -29,10 +29,10 @@ function ContactForm() {
 
         <form
           onSubmit={handleSubmit}
-          className="max-w-xl mx-auto text-left text-[#39FF14] space-y-4"
+          className="max-w-xl mx-auto text-left text-slate-300 space-y-4"
         >
           <motion.div whileFocus={{ scale: 1.02 }}>
-            <label htmlFor="name" className="block mb-1">
+            <label htmlFor="name" className="block mb-1 text-gray-100">
               Name:
             </label>
             <input
@@ -40,12 +40,12 @@ function ContactForm() {
               id="name"
               name="name"
               required
-              className="w-full p-2.5 border border-gray-300 rounded text-black"
+              className="w-full p-3 border border-slate-700 rounded-2xl bg-slate-900/80 text-white placeholder:text-slate-500 focus:border-slate-400 focus:ring-2 focus:ring-slate-500 outline-none"
             />
           </motion.div>
 
           <motion.div whileFocus={{ scale: 1.02 }}>
-            <label htmlFor="email" className="block mb-1">
+            <label htmlFor="email" className="block mb-1 text-gray-100">
               Email:
             </label>
             <input
@@ -53,19 +53,19 @@ function ContactForm() {
               id="email"
               name="email"
               required
-              className="w-full p-2.5 border border-gray-300 rounded text-black"
+              className="w-full p-3 border border-slate-700 rounded-2xl bg-slate-900/80 text-white placeholder:text-slate-500 focus:border-slate-400 focus:ring-2 focus:ring-slate-500 outline-none"
             />
           </motion.div>
 
           <motion.div whileFocus={{ scale: 1.02 }}>
-            <label htmlFor="message" className="block mb-1">
+            <label htmlFor="message" className="block mb-1 text-gray-100">
               Message:
             </label>
             <textarea
               id="message"
               name="message"
               required
-              className="w-full p-2.5 border border-gray-300 rounded h-32 resize-none text-black"
+              className="w-full p-3 border border-slate-700 rounded-2xl bg-slate-900/80 h-32 resize-none text-white placeholder:text-slate-500 focus:border-slate-400 focus:ring-2 focus:ring-slate-500 outline-none"
             />
           </motion.div>
 

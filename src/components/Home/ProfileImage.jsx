@@ -27,7 +27,7 @@ export function ProfileImage({ src, alt }) {
           </defs>
 
           <text
-            fill="#39FF14"
+            fill="#cbd5e1"
             fontSize="15"
             letterSpacing="8px"
             fontWeight="bold"

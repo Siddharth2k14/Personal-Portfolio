@@ -41,7 +41,7 @@ export function AnimatedText({
   return (
     <div className="h-20 flex items-center justify-center md:justify-start">
       <motion.span
-        className="font-mono text-3xl md:text-4xl text-[#39FF14] font-bold"
+        className="font-mono text-3xl md:text-4xl text-slate-200 font-bold"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
