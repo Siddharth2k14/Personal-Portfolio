@@ -15,6 +15,7 @@ const SKILL_GROUPS = {
     "Express JS",
     "MongoDB",
     "Firebase",
+    "PostgreSQL",
     "SQL",
   ],
   "Tools & Platforms": [
@@ -25,6 +26,7 @@ const SKILL_GROUPS = {
     "Vercel",
     "Render",
     "MongoDB Atlas",
+    "PgAdmin",
     "Antigravity",
   ],
   "Programming & CS": [
